@@ -18,10 +18,10 @@ driver = webdriver.Firefox(options=FF_options, firefox_profile=FF_profile, execu
 driver.get('https://www.instagram.com/')
 
 # log in
-time.sleep(5)
+time.sleep(30)
 button = driver.find_element_by_xpath("/html/body/div[3]/div/div/button[1]")
 button.send_keys(Keys.ENTER)
-time.sleep(5)
+time.sleep(30)
 
 # take elements
 username = driver.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[1]/div/label/input")
@@ -32,7 +32,7 @@ submit = driver.find_element_by_xpath("/html/body/div[1]/section/main/article/di
 username.send_keys("6907788326")
 password.send_keys("#T6!8eq63oy5TfkE")
 submit.send_keys(Keys.ENTER)
-time.sleep(10)
+time.sleep(30)
 
 # go to the comment page
 driver.get("https://www.instagram.com/p/CRguYXXMZub/")
