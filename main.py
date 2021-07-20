@@ -8,8 +8,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import ui
 
 # setting up driver
-
-driver = webdriver.Firefox(executable_path=FIREFOX_BIN)
+geckodriver_path = "/app/vendor/geckodriver/geckodriver"
+driver = webdriver.Firefox(executable_path=geckodriver_path)
 driver.get('https://www.instagram.com/')
 
 # log in
