@@ -14,7 +14,7 @@ FF_profile = webdriver.FirefoxProfile()
 FF_options.add_argument("-headless")
 FF_profile.update_preferences()
 
-driver = webdriver.Firefox(options=FF_options, firefox_profile=FF_profile, executable_path=os.environ.get("GECKODRIVER_PATH"), firefox_binary=FirefoxBinary(os.environ.get("FIREFOX_BIN")))
+driver = webdriver.Firefox(options=FF_options, firefox_profile=FF_profile, executable_path=os.environ.get("GECKODRIVER_PATH"))
 driver.get('https://www.instagram.com/')
 
 # log in
