@@ -1,3 +1,4 @@
+import os
 import random
 import time
 from telnetlib import EC
@@ -8,8 +9,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import ui
 
 # setting up driver
-geckodriver_path = "/app/vendor/geckodriver/geckodriver"
-driver = webdriver.Firefox(executable_path=geckodriver_path)
+driver = webdriver.Firefox(executable_path=os.environ.get("GECKODRIVER_PATH"))
 driver.get('https://www.instagram.com/')
 
 # log in
