@@ -1,0 +1,581 @@
+1626780000357	geckodriver	INFO	Listening on 127.0.0.1:35719
+1626780000361	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHiXABe"
+Gtk-Message: 14:20:00.487: Failed to load module "appmenu-gtk-module"
+1626780000815	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:20:01.366: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:20:01.457: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHiXABe/search.json.mozlz4", (void 0)))
+
+(firefox:11061): GLib-GIO-WARNING **: 14:20:01.649: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626780002089	Marionette	INFO	Listening on port 33789
+1626780002185	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:20:02.391: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:20:04.091: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1626780138766	geckodriver	INFO	Listening on 127.0.0.1:47585
+1626780138770	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBXPxRx"
+Gtk-Message: 14:22:18.863: Failed to load module "appmenu-gtk-module"
+1626780139213	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:22:19.885: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:22:20.039: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBXPxRx/search.json.mozlz4", (void 0)))
+
+(firefox:11874): GLib-GIO-WARNING **: 14:22:20.661: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626780141104	Marionette	INFO	Listening on port 41689
+Gtk-Message: 14:22:21.173: Failed to load module "appmenu-gtk-module"
+1626780141194	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:22:23.193: Failed to load module "appmenu-gtk-module"
+1626780158992	Marionette	INFO	Stopped listening on port 33789
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: uncaught exception: Object
+1626780188746	geckodriver	INFO	Listening on 127.0.0.1:40691
+1626780188750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZBo1WA"
+Gtk-Message: 14:23:08.842: Failed to load module "appmenu-gtk-module"
+1626780189261	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:23:09.886: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:23:10.007: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZBo1WA/search.json.mozlz4", (void 0)))
+
+(firefox:12331): GLib-GIO-WARNING **: 14:23:10.250: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626780190857	Marionette	INFO	Listening on port 35351
+Gtk-Message: 14:23:10.955: Failed to load module "appmenu-gtk-module"
+1626780190977	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626780191817	Marionette	INFO	Stopped listening on port 41689
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Gtk-Message: 14:23:13.431: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+1626780226951	Marionette	INFO	Stopped listening on port 35351
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626780228479	geckodriver	INFO	Listening on 127.0.0.1:46257
+1626780228483	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5suFCr"
+Gtk-Message: 14:23:48.566: Failed to load module "appmenu-gtk-module"
+1626780228870	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:23:49.385: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:23:49.474: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5suFCr/search.json.mozlz4", (void 0)))
+
+(firefox:12742): GLib-GIO-WARNING **: 14:23:49.676: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626780230001	Marionette	INFO	Listening on port 44963
+1626780230098	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:23:50.389: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:23:52.525: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1626780288034	Marionette	INFO	Stopped listening on port 44963
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626780313231	geckodriver	INFO	Listening on 127.0.0.1:56593
+1626780313235	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3FTutN"
+Gtk-Message: 14:25:13.321: Failed to load module "appmenu-gtk-module"
+1626780313747	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:25:14.297: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:25:14.407: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3FTutN/search.json.mozlz4", (void 0)))
+
+(firefox:13292): GLib-GIO-WARNING **: 14:25:14.601: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626780315043	Marionette	INFO	Listening on port 44183
+1626780315150	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:25:15.297: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:25:16.959: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+console.error: "isValidHoverTarget rejected with unexpected reason:"
+console.error: (new TypeError("rule is undefined", "resource://devtools/client/inspector/rules/utils/utils.js", 186))
+console.error: "isValidHoverTarget rejected with unexpected reason:"
+console.error: (new TypeError("rule is undefined", "resource://devtools/client/inspector/rules/utils/utils.js", 186))
+1626780393125	geckodriver	INFO	Listening on 127.0.0.1:53573
+1626780393128	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaK4WiI"
+Gtk-Message: 14:26:33.202: Failed to load module "appmenu-gtk-module"
+1626780393655	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:26:34.220: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:26:34.326: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaK4WiI/search.json.mozlz4", (void 0)))
+
+(firefox:13819): GLib-GIO-WARNING **: 14:26:34.521: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626780394987	Marionette	INFO	Listening on port 37231
+1626780395041	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:26:35.237: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:26:36.674: Failed to load module "appmenu-gtk-module"
+1626780396882	Marionette	INFO	Stopped listening on port 44183
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+1626780743605	Marionette	INFO	Stopped listening on port 37231
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626780778375	geckodriver	INFO	Listening on 127.0.0.1:59421
+1626780778379	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehCfReA"
+Gtk-Message: 14:32:58.591: Failed to load module "appmenu-gtk-module"
+1626780778913	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:32:59.479: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:32:59.547: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehCfReA/search.json.mozlz4", (void 0)))
+
+(firefox:15357): GLib-GIO-WARNING **: 14:32:59.736: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626780780159	Marionette	INFO	Listening on port 41983
+1626780780197	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:33:00.491: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:33:01.926: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+1626780811735	Marionette	INFO	Stopped listening on port 41983
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626780813546	geckodriver	INFO	Listening on 127.0.0.1:42417
+1626780813550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepKdbDj"
+Gtk-Message: 14:33:33.641: Failed to load module "appmenu-gtk-module"
+1626780813993	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:33:34.496: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:33:34.607: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepKdbDj/search.json.mozlz4", (void 0)))
+
+(firefox:15730): GLib-GIO-WARNING **: 14:33:34.780: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626780815119	Marionette	INFO	Listening on port 35385
+1626780815164	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:33:35.512: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:33:37.004: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+Gtk-Message: 14:34:12.094: Failed to load module "appmenu-gtk-module"
+1626780861828	Marionette	INFO	Stopped listening on port 35385
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626781492164	geckodriver	INFO	Listening on 127.0.0.1:34239
+1626781492167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCyaCPQ"
+Gtk-Message: 14:44:52.267: Failed to load module "appmenu-gtk-module"
+1626781492666	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:44:53.197: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:44:53.271: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCyaCPQ/search.json.mozlz4", (void 0)))
+
+(firefox:17959): GLib-GIO-WARNING **: 14:44:53.474: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626781493938	Marionette	INFO	Listening on port 34117
+1626781493990	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:44:54.223: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:44:57.118: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1626781542548	Marionette	INFO	Stopped listening on port 34117
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626781545079	geckodriver	INFO	Listening on 127.0.0.1:52815
+1626781545083	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1K5hrz"
+Gtk-Message: 14:45:45.159: Failed to load module "appmenu-gtk-module"
+1626781545502	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:45:46.081: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:45:46.167: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1K5hrz/search.json.mozlz4", (void 0)))
+
+(firefox:18347): GLib-GIO-WARNING **: 14:45:46.322: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626781546702	Marionette	INFO	Listening on port 44975
+1626781546808	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:45:47.095: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:45:48.686: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+Gtk-Message: 14:46:22.210: Failed to load module "appmenu-gtk-module"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1626781726921	geckodriver	INFO	Listening on 127.0.0.1:44569
+1626781726924	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek8XIio"
+Gtk-Message: 14:48:47.036: Failed to load module "appmenu-gtk-module"
+1626781727342	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:48:47.879: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:48:47.981: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilek8XIio/search.json.mozlz4", (void 0)))
+
+(firefox:18935): GLib-GIO-WARNING **: 14:48:48.141: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626781728581	Marionette	INFO	Listening on port 41139
+1626781728643	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:48:48.890: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:48:51.183: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+Gtk-Message: 14:49:25.720: Failed to load module "appmenu-gtk-module"
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1626781851238	geckodriver	INFO	Listening on 127.0.0.1:33843
+1626781851241	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileW3CReC"
+Gtk-Message: 14:50:51.319: Failed to load module "appmenu-gtk-module"
+1626781851633	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:50:52.192: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:50:52.260: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileW3CReC/search.json.mozlz4", (void 0)))
+
+(firefox:19439): GLib-GIO-WARNING **: 14:50:52.417: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626781852851	Marionette	INFO	Listening on port 45693
+1626781852959	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:50:53.179: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:50:54.744: Failed to load module "appmenu-gtk-module"
+1626781855616	Marionette	INFO	Stopped listening on port 41139
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: uncaught exception: Object
+Gtk-Message: 14:51:26.256: Failed to load module "appmenu-gtk-module"
+1626781969357	Marionette	INFO	Stopped listening on port 45693
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626782048316	geckodriver	INFO	Listening on 127.0.0.1:40195
+1626782048322	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEPI2Wr"
+Gtk-Message: 14:54:08.433: Failed to load module "appmenu-gtk-module"
+1626782048819	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:54:09.492: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:54:09.568: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEPI2Wr/search.json.mozlz4", (void 0)))
+
+(firefox:20376): GLib-GIO-WARNING **: 14:54:09.756: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626782050219	Marionette	INFO	Listening on port 37487
+1626782050240	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:54:10.522: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:54:12.059: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+Gtk-Message: 14:54:39.418: Failed to load module "appmenu-gtk-module"
+1626782123527	Marionette	INFO	Stopped listening on port 37487
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626782321462	geckodriver	INFO	Listening on 127.0.0.1:34431
+1626782321467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemHZBUT"
+Gtk-Message: 14:58:41.548: Failed to load module "appmenu-gtk-module"
+1626782321937	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:58:42.557: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:58:42.663: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemHZBUT/search.json.mozlz4", (void 0)))
+
+(firefox:21770): GLib-GIO-WARNING **: 14:58:42.830: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626782323264	Marionette	INFO	Listening on port 40457
+1626782323291	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:58:43.558: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:58:43.929: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+1626782356789	Marionette	INFO	Stopped listening on port 40457
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626782364242	geckodriver	INFO	Listening on 127.0.0.1:52253
+1626782364245	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0dp0Qi"
+Gtk-Message: 14:59:24.333: Failed to load module "appmenu-gtk-module"
+1626782364734	Marionette	INFO	Marionette enabled
+Gtk-Message: 14:59:25.330: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:59:25.553: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0dp0Qi/search.json.mozlz4", (void 0)))
+
+(firefox:22138): GLib-GIO-WARNING **: 14:59:25.701: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626782366066	Marionette	INFO	Listening on port 44569
+1626782366166	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 14:59:26.366: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 14:59:27.943: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+Gtk-Message: 14:59:50.621: Failed to load module "appmenu-gtk-module"
+1626782417720	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626782445498	Marionette	INFO	Stopped listening on port 44569
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626782457601	geckodriver	INFO	Listening on 127.0.0.1:36185
+1626782457603	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2cHR7C"
+Gtk-Message: 15:00:57.683: Failed to load module "appmenu-gtk-module"
+1626782458086	Marionette	INFO	Marionette enabled
+Gtk-Message: 15:00:58.766: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 15:00:58.890: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2cHR7C/search.json.mozlz4", (void 0)))
+
+(firefox:22763): GLib-GIO-WARNING **: 15:00:59.177: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626782459611	Marionette	INFO	Listening on port 43411
+1626782459729	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 15:00:59.771: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 15:01:01.359: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+Gtk-Message: 15:01:23.800: Failed to load module "appmenu-gtk-module"
+1626782493874	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1626782928522	geckodriver	INFO	Listening on 127.0.0.1:41809
+1626782928526	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqI7hQn"
+Gtk-Message: 15:08:48.612: Failed to load module "appmenu-gtk-module"
+1626782929015	Marionette	INFO	Marionette enabled
+Gtk-Message: 15:08:49.567: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 15:08:49.641: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqI7hQn/search.json.mozlz4", (void 0)))
+
+(firefox:24175): GLib-GIO-WARNING **: 15:08:49.804: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626782930155	Marionette	INFO	Listening on port 35519
+1626782930258	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 15:08:50.603: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 15:08:52.109: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+Gtk-Message: 15:09:14.676: Failed to load module "appmenu-gtk-module"
+1626783067825	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626794799804	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626794805517	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626794848337	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626794854048	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626794900866	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626794906581	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626794945405	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626794951116	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795070981	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795076698	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795173606	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795179323	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795223176	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795228891	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795272725	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795321195	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795326910	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795411794	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795417510	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795490360	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795496075	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795562921	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795651306	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795657019	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795708866	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795714581	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795804489	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795810204	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795867112	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626795872827	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
