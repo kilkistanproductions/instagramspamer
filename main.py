@@ -9,7 +9,7 @@ from selenium.webdriver.support import ui
 
 # setting up driver
 
-driver = webdriver.Firefox(executable_path="/home/hgetis/Projects/Python/geckodriver")
+driver = webdriver.Firefox(executable_path=FIREFOX_BIN)
 driver.get('https://www.instagram.com/')
 
 # log in
