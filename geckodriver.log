@@ -1092,3 +1092,61 @@ webdriverClickElement@chrome://marionette/content/interaction.js:179:31
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1626801946634	geckodriver	INFO	Listening on 127.0.0.1:35749
+1626801947644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqK0rHc"
+Gtk-Message: 20:25:47.732: Failed to load module "appmenu-gtk-module"
+1626801948173	Marionette	INFO	Marionette enabled
+Gtk-Message: 20:25:49.006: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 20:25:49.221: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqK0rHc/search.json.mozlz4", (void 0)))
+
+(firefox:260497): GLib-GIO-WARNING **: 20:25:49.474: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626801950032	Marionette	INFO	Listening on port 41217
+1626801950062	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 20:25:50.116: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 20:25:51.670: Failed to load module "appmenu-gtk-module"
+JavaScript error: , line 0: uncaught exception: Object
+Gtk-Message: 20:27:24.514: Failed to load module "appmenu-gtk-module"
+1626802103835	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626802109552	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626805259455	Marionette	INFO	Stopped listening on port 41217
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626850045565	geckodriver	INFO	Listening on 127.0.0.1:57517
+1626850045575	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerVd3Lh"
+Gtk-Message: 09:47:25.685: Failed to load module "appmenu-gtk-module"
+1626850046000	Marionette	INFO	Marionette enabled
+Gtk-Message: 09:47:26.669: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 09:47:26.731: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerVd3Lh/search.json.mozlz4", (void 0)))
+
+(firefox:13105): GLib-GIO-WARNING **: 09:47:27.016: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1626850047436	Marionette	INFO	Listening on port 42599
+1626850047544	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 09:47:27.700: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 09:47:29.264: Failed to load module "appmenu-gtk-module"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

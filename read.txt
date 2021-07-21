@@ -1,0 +1,14 @@
+--What is it--
+This is a simple script for spamming in a instagram post made with python
+--Requirements--
+All the pip packages on the requirements.txt file and firefox
+--Things to do--
+Make it exe with gui to put the site and the profile-profiles
+--Installation--
+Download the python script and change the variables:
+username: your instagram username
+password: your instagram password
+account_name = the account to tag or the comment you want to spam
+site = the post url
+--You are ready to go--
+

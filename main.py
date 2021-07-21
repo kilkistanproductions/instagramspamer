@@ -8,13 +8,18 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import ui
 
-# setting up driver
-FF_options = webdriver.FirefoxOptions()
-FF_profile = webdriver.FirefoxProfile()
-FF_options.add_argument("-headless")
-FF_profile.update_preferences()
+# variables
+account_name = "@_basilhsnastoulas"
+site = "https://www.instagram.com/p/CRguYXXMZub/"
 
-driver = webdriver.Firefox(options=FF_options, firefox_profile=FF_profile, executable_path=os.environ.get("GECKODRIVER_PATH"))
+# setting up driver
+#FF_options = webdriver.FirefoxOptions()
+#FF_profile = webdriver.FirefoxProfile()
+#FF_options.add_argument("-headless")
+#FF_profile.update_preferences()
+
+#driver = webdriver.Firefox(options=FF_options, firefox_profile=FF_profile, executable_path=os.environ.get("GECKODRIVER_PATH"))
+driver = webdriver.Firefox(executable_path="/home/hgetis/Projects/Python/instagramspamer/geckodriver")
 driver.get('https://www.instagram.com/')
 
 # log in
@@ -35,7 +40,7 @@ submit.send_keys(Keys.ENTER)
 time.sleep(30)
 
 # go to the comment page
-driver.get("https://www.instagram.com/p/CRguYXXMZub/")
+driver.get(site)
 
 
 # send comment
@@ -47,7 +52,7 @@ def spam():
     time.sleep(5)
     comment_area = driver.find_element_by_class_name('Ypffh')
     comment_area.click()
-    comment_area.send_keys("@_basilhsnastoulas")
+    comment_area.send_keys(account_name)
     comment_area.send_keys(Keys.ENTER)
 
 
