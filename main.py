@@ -1,3 +1,4 @@
+import os
 import random
 import time
 from telnetlib import EC
@@ -7,10 +8,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import ui
 
-# setting up driver
 
-driver = webdriver.Firefox(executable_path="/home/hgetis/Projects/Python/geckodriver")
-driver.get('https://www.instagram.com/')
+# setting up driver
+FF_options = webdriver.FirefoxOptions()
+FF_profile = webdriver.FirefoxProfile()
+FF_options.add_argument("-headless")
+FF_profile.update_preferences()
+
+driver = webdriver.Firefox(options=FF_options, firefox_profile=FF_profile, executable_path=os.environ.get("GECKODRIVER_PATH"))
 
 # log in
 time.sleep(5)
